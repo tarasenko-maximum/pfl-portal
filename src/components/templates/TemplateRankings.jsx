@@ -50,7 +50,7 @@ const TemplateRankings = () => {
           <img src="/images/action.png" alt="Hero Background" className="w-full h-full object-cover opacity-20" />
         </div>
         <div className="relative z-10 text-center">
-          <h1 className="text-5xl md:text-6xl font-black text-white uppercase tracking-wider mb-2">RANKINGS</h1>
+          <h2 className="text-5xl md:text-6xl font-black text-white uppercase tracking-wider mb-2">RANKINGS</h2>
           <div className="text-xs text-white/50 uppercase tracking-widest font-bold">Home / Rankings</div>
         </div>
       </div>

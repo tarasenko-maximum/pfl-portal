@@ -21,9 +21,9 @@ const Reference = () => {
             <span className="text-[var(--pfl-orange)] text-3xl md:text-5xl">ОРИЕНТИР.</span>
           </div>
           
-          <div className="flex flex-col md:flex-row items-center justify-center gap-6 text-6xl md:text-[120px] font-anton uppercase leading-none tracking-wider">
-            <span className="text-white">PFL.COM</span>
-            <span className="text-[var(--pfl-orange)] text-3xl md:text-5xl">СЛЕДУЮЩИЙ ШАГ.</span>
+          <div className="flex flex-col md:flex-row items-center justify-center gap-6 text-5xl md:text-[120px] font-anton uppercase leading-none tracking-wider">
+            <span className="text-white">PRIME FL</span>
+            <span className="text-[var(--pfl-orange)] text-2xl md:text-5xl">СЛЕДУЮЩИЙ ШАГ.</span>
           </div>
           
           <p className="mt-12 text-[var(--muted)] font-outfit text-lg max-w-2xl mx-auto border-t border-white/10 pt-8">

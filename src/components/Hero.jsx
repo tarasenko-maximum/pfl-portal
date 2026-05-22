@@ -16,7 +16,7 @@ const Hero = () => {
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, delay: 0.1 }}
-            className="text-6xl md:text-[110px] leading-[0.95] font-anton mb-6 uppercase"
+            className="text-5xl md:text-[110px] leading-[0.95] font-anton mb-6 uppercase"
           >
             PFL <span className="text-gradient-orange">PORTAL</span>
           </motion.h1>
@@ -27,7 +27,7 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.3 }}
             className="text-lg md:text-xl font-outfit text-[var(--muted)] max-w-2xl mx-auto mb-12 font-light leading-relaxed"
           >
-            Коммерческое предложение — глобальный медиа-хаб Prime Fighting League. Полностью функциональная экосистема уровня мировых промоушенов.
+            Коммерческое предложение — глобальный медиа-хаб Prime Fighting League. Полностью функциональная экосистема уровня мировых промоутерских организаций.
           </motion.p>
           
           <motion.div

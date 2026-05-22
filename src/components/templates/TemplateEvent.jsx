@@ -59,9 +59,9 @@ const TemplateEvent = () => {
             <div className="flex items-center gap-2 text-xs font-bold text-red-600 uppercase tracking-widest mb-4">
               <span className="w-2 h-2 bg-red-600 inline-block"></span> DECEMBER 24, 2026
             </div>
-            <h1 className="text-6xl md:text-8xl font-black text-white italic uppercase leading-[0.9] mb-8">
+            <h2 className="text-5xl md:text-8xl font-black text-white italic uppercase leading-[0.9] mb-8">
               ONE-SPORT <br/> SUPERSTARS <br/> WHO SHINED IN 2026
-            </h1>
+            </h2>
             <button className="bg-red-600 text-white px-8 py-3 font-bold text-xs uppercase tracking-widest hover:bg-white hover:text-black transition-colors">
               Read More
             </button>
@@ -92,17 +92,17 @@ const TemplateEvent = () => {
       {/* Sponsor / Federation Strip (Black Background) */}
       <div className="bg-[#111] border-b border-white/5 py-12">
         <div className="container mx-auto px-6">
-           <div className="flex justify-between items-center opacity-80 grayscale hover:grayscale-0 transition-all duration-500">
-             <div className="text-white font-anton text-2xl tracking-widest">WBC BOXING</div>
-             <div className="text-white font-anton text-2xl tracking-widest">IBF FEDERATION</div>
-             <div className="bg-[var(--liga-green)] px-10 py-6 rounded-xl shadow-[0_0_40px_rgba(0,255,102,0.3)] mx-4 transform scale-110">
-                 <img src="/images/ls_logo_white.png" alt="Liga Stavok" className="h-14 object-contain" />
+           <div className="flex flex-wrap justify-center md:justify-between items-center gap-6 opacity-80 grayscale hover:grayscale-0 transition-all duration-500">
+             <div className="text-white font-anton text-lg md:text-2xl tracking-widest text-center">WBC BOXING</div>
+             <div className="text-white font-anton text-lg md:text-2xl tracking-widest text-center">IBF FEDERATION</div>
+             <div className="bg-[var(--liga-green)] px-6 py-4 md:px-10 md:py-6 rounded-xl shadow-[0_0_40px_rgba(0,255,102,0.3)] mx-2 md:mx-4 transform md:scale-110">
+                 <img src="/images/ls_logo_white.png" alt="Liga Stavok" className="h-10 md:h-14 object-contain" />
              </div>
-             <div className="flex items-center gap-3">
-                <div className="w-10 h-10 rounded-xl bg-blue-600 flex items-center justify-center text-white font-bold text-2xl">VK</div>
-                <div className="text-white font-bold text-2xl">Видео</div>
+             <div className="flex items-center gap-2 md:gap-3">
+                <div className="w-8 h-8 md:w-10 md:h-10 rounded-xl bg-blue-600 flex items-center justify-center text-white font-bold text-xl md:text-2xl">VK</div>
+                <div className="text-white font-bold text-xl md:text-2xl">Видео</div>
              </div>
-             <div className="text-white font-anton text-2xl tracking-widest">WBO</div>
+             <div className="text-white font-anton text-lg md:text-2xl tracking-widest text-center">WBO</div>
            </div>
         </div>
       </div>

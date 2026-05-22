@@ -25,9 +25,14 @@ const Nav = () => {
           <a href="#mockups" className="hover:text-white transition-all">Мокапы</a>
           <a href="#portfolio" className="hover:text-white transition-all">Кейсы</a>
         </div>
-        <a href="mailto:tarasenko.srb@gmail.com" className="btn-primary px-6 py-2.5 text-sm">
-          Связаться
-        </a>
+        <div className="flex gap-3">
+          <a href="mailto:tarasenko.srb@gmail.com?subject=Запрос%20по%20PFL%20Portal" className="btn-primary px-6 py-2.5 text-sm">
+            Связаться
+          </a>
+          <a href="https://t.me/MaximRuSrb" target="_blank" rel="noopener noreferrer" className="btn-outline px-4 py-2.5 text-sm hidden sm:flex items-center justify-center">
+            TG
+          </a>
+        </div>
       </div>
     </nav>
   );

@@ -39,8 +39,8 @@ const FiveTasks = () => {
           viewport={{ once: true }}
           className="mb-16"
         >
-          <h2 className="text-5xl md:text-[80px] font-anton uppercase text-white leading-none">
-            5 ЗАДАЧ. ОДИН ИНСТРУМЕНТ.
+          <h2 className="text-4xl md:text-[80px] font-anton uppercase text-white leading-none">
+            5 ЦЕЛЕЙ. ОДИН ИНСТРУМЕНТ.
           </h2>
         </motion.div>
 

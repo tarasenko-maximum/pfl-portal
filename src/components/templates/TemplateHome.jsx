@@ -59,9 +59,9 @@ const TemplateHome = () => {
                 <div className="text-white/80 font-bold text-sm tracking-widest uppercase mb-4 flex items-center gap-2">
                   <span className="w-4 h-4 bg-white inline-block"></span> DECEMBER 24, 2026
                 </div>
-                <h1 className="text-6xl md:text-8xl font-black text-white italic uppercase leading-[0.9]">
-                  JANGO IS <br/> TRAINING WITH <br/> TOP FIGHTERS
-                </h1>
+                <h2 className="text-6xl md:text-8xl font-black text-white italic uppercase leading-[0.9]">
+                  JANGO IS TRAINING WITH TOP FIGHTERS
+                </h2>
                 <div className="flex gap-2 mt-8">
                   <div className="w-3 h-3 rounded-full bg-white"></div>
                   <div className="w-3 h-3 rounded-full bg-white/30"></div>

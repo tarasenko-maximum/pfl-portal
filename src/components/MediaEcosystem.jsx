@@ -12,7 +12,7 @@ const MediaEcosystem = () => {
           <div className="text-[var(--muted)] font-mono text-sm tracking-widest uppercase md:text-lg mb-8">
             YouTube · YT Shorts · Instagram · Telegram · VK · TikTok
           </div>
-          <div className="text-4xl sm:text-5xl md:text-7xl font-anton text-[var(--pfl-orange)] leading-none mb-16 drop-shadow-[0_0_30px_rgba(255,87,34,0.3)] whitespace-nowrap overflow-hidden text-ellipsis max-w-full">
+          <div className="text-3xl sm:text-5xl md:text-7xl font-anton text-[var(--pfl-orange)] leading-none mb-16 drop-shadow-[0_0_30px_rgba(255,87,34,0.3)] whitespace-normal break-words">
             150M+ ПРОСМОТРОВ / ГОД
           </div>
         </div>

@@ -50,7 +50,7 @@ const TemplateNews = () => {
           <img src="/images/action.png" alt="Hero Background" className="w-full h-full object-cover opacity-30" />
         </div>
         <div className="relative z-10 text-center">
-          <h1 className="text-5xl md:text-6xl font-black text-white uppercase tracking-wider mb-2">SINGLE NEWS</h1>
+          <h2 className="text-5xl md:text-6xl font-black text-white uppercase tracking-wider mb-2">SINGLE NEWS</h2>
           <div className="text-xs text-white/50 uppercase tracking-widest font-bold">Home / Single News</div>
         </div>
       </div>
@@ -66,15 +66,14 @@ const TemplateNews = () => {
            <h2 className="text-4xl md:text-5xl font-black uppercase leading-none mb-6">
              BOUTS THAT COULD STEAL THE SHOW AT PFL 14
            </h2>
-           <div className="text-gray-600 font-outfit space-y-6 leading-relaxed">
-             <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
-             <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+             <p>Предстоящий турнир PFL 14 обещает стать самым масштабным событием в истории европейских кулачных боёв. Впервые на арене в Белграде сойдутся лучшие бойцы из 12 стран, а главный бой вечера решит судьбу чемпионского пояса в лёгком весе.</p>
+             <p>Организаторы уже подтвердили, что билеты на VIP-места были распроданы в течение первых 48 часов после анонса. Трансляция турнира будет вестись на 3 языках, а благодаря новому партнерству с «Лигой Ставок» зрители получат доступ к уникальной интерактивной статистике прямо во время поединков.</p>
              
              <blockquote className="border-l-4 border-red-600 pl-6 py-2 my-8 italic text-xl font-bold text-black">
-               "This event is going to completely redefine how we view bare knuckle fighting in Europe. The stakes have never been higher."
+               "Этот вечер навсегда изменит то, как мы смотрим на кулачные бои в Европе. Ставки высоки как никогда, и никто не захочет уступить."
              </blockquote>
              
-             <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+             <p>Особое внимание фанатов приковано к возвращению в ринг сербского тяжеловеса. Его предыдущий бой завершился блестящим нокаутом на 40-й секунде. Сможет ли он повторить свой успех перед родной публикой? Узнаем уже 24 декабря. Prime Fighting League выводит стандарты спортивных трансляций на совершенно новый уровень.</p>
            </div>
         </div>
 
@@ -95,7 +94,7 @@ const TemplateNews = () => {
                {[
                  { title: 'FULL CARD REVEALED FOR FRIDAY FIGHTS', img: '/images/action.png' },
                  { title: 'MAGOMED PREPARES FOR TITLE DEFENSE', img: '/images/magomed.png' },
-                 { title: 'NEW SPONSORSHIP DEAL ANNOUNCED', img: '/images/mokap1.jpg' }
+                 { title: 'NEW SPONSORSHIP DEAL ANNOUNCED', img: '/images/mokap1.webp' }
                ].map((news, i) => (
                  <div key={i} className="flex gap-4 p-4 border border-gray-100 shadow-sm hover:shadow-md transition-shadow cursor-pointer">
                    <img src={news.img} className="w-20 h-20 object-cover" alt="Thumb" />

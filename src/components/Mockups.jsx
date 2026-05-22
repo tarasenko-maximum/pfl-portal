@@ -34,8 +34,8 @@ const Mockups = () => {
                 <div className="w-3 h-3 rounded-full bg-yellow-500"></div>
                 <div className="w-3 h-3 rounded-full bg-green-500"></div>
               </div>
-              <div className="bg-[#050505] flex-1 py-2 px-4 rounded text-center text-white/30 text-sm font-mono tracking-widest">
-                pfl.com
+              <div className="bg-[#111] px-4 py-2 rounded text-xs text-white/50 tracking-wider">
+                pfl.rs
               </div>
             </div>
 
@@ -59,8 +59,8 @@ const Mockups = () => {
                 <div className="w-3 h-3 rounded-full bg-yellow-500"></div>
                 <div className="w-3 h-3 rounded-full bg-green-500"></div>
               </div>
-              <div className="bg-[#050505] flex-1 py-2 px-4 rounded text-center text-white/30 text-sm font-mono tracking-widest">
-                pfl.com/rankings
+              <div className="bg-[#111] px-4 py-2 rounded text-xs text-white/50 tracking-wider">
+                pfl.rs/rankings
               </div>
             </div>
 
@@ -84,8 +84,8 @@ const Mockups = () => {
                 <div className="w-3 h-3 rounded-full bg-yellow-500"></div>
                 <div className="w-3 h-3 rounded-full bg-green-500"></div>
               </div>
-              <div className="bg-[#050505] flex-1 py-2 px-4 rounded text-center text-white/30 text-sm font-mono tracking-widest">
-                pfl.com/news/stealing-the-show
+              <div className="bg-[#111] px-4 py-2 rounded text-xs text-white/50 tracking-wider">
+                pfl.rs/news/stealing-the-show
               </div>
             </div>
 
@@ -109,8 +109,8 @@ const Mockups = () => {
                 <div className="w-3 h-3 rounded-full bg-yellow-500"></div>
                 <div className="w-3 h-3 rounded-full bg-green-500"></div>
               </div>
-              <div className="bg-[#050505] flex-1 py-2 px-4 rounded text-center text-white/30 text-sm font-mono tracking-widest">
-                pfl.com/events/superstars-2026
+              <div className="bg-[#111] px-4 py-2 rounded text-xs text-white/50 tracking-wider">
+                pfl.rs/events/superstars-2026
               </div>
             </div>
 
