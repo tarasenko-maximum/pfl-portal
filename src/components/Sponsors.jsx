@@ -30,16 +30,16 @@ const Sponsors = () => {
         <div className="grid lg:grid-cols-2 gap-10 items-stretch">
           {/* Секция А */}
           <div className="flex flex-col h-full bg-[#0a0a0a] rounded-2xl p-8 border border-white/5">
-            <h3 className="text-2xl font-anton text-[var(--pfl-orange)] mb-8 uppercase tracking-wider">
+            <h3 className="text-xl md:text-2xl font-anton text-[var(--pfl-orange)] mb-6 md:mb-8 uppercase tracking-wider break-words">
               Архитектура спонсорских мест
             </h3>
             <div className="flex-1 flex flex-col justify-between space-y-4">
               {sponsorSlots.map((slot, idx) => (
-                <div key={idx} className="flex gap-4 p-5 rounded-lg bg-[#111] border border-white/5 hover:-translate-y-1 hover:bg-[#151515] hover:border-[var(--pfl-orange)]/50 hover:shadow-[0_15px_30px_rgba(255,87,34,0.15)] hover:z-10 relative transition-all duration-300 cursor-pointer group flex-1">
-                  <div className="text-[var(--pfl-orange)] font-anton text-xl group-hover:scale-110 transition-transform">{idx + 1}</div>
+                <div key={idx} className="flex gap-3 md:gap-4 p-4 md:p-5 rounded-lg bg-[#111] border border-white/5 hover:-translate-y-1 hover:bg-[#151515] hover:border-[var(--pfl-orange)]/50 hover:shadow-[0_15px_30px_rgba(255,87,34,0.15)] hover:z-10 relative transition-all duration-300 cursor-pointer group flex-1">
+                  <div className="text-[var(--pfl-orange)] font-anton text-lg md:text-xl group-hover:scale-110 transition-transform">{idx + 1}</div>
                   <div>
                     <h4 className="font-outfit font-bold text-white mb-1 group-hover:text-[var(--pfl-orange)] transition-colors">{slot.title}</h4>
-                    <p className="text-[var(--muted)] text-sm group-hover:text-white/80 transition-colors leading-tight">{slot.desc}</p>
+                    <p className="text-[var(--muted)] text-xs md:text-sm group-hover:text-white/80 transition-colors leading-tight break-words">{slot.desc}</p>
                   </div>
                 </div>
               ))}
@@ -49,12 +49,12 @@ const Sponsors = () => {
           {/* Секция Б */}
           <div className="glass-card p-8 md:p-10 border-[var(--pfl-orange)]/30 relative flex flex-col h-full justify-between">
             <div>
-              <h3 className="text-2xl font-anton text-white mb-8 uppercase tracking-wider">
+              <h3 className="text-xl md:text-2xl font-anton text-white mb-6 md:mb-8 uppercase tracking-wider break-words">
                 Многоуровневая модель
               </h3>
               
-              <div className="bg-[#050505] rounded-xl p-4 md:p-6 mb-8 font-mono text-[10px] md:text-sm border border-white/10 overflow-x-auto">
-                <pre className="text-[var(--dim)]">
+              <div className="bg-[#050505] rounded-xl p-3 md:p-6 mb-8 font-mono text-[8px] sm:text-[10px] md:text-sm border border-white/10 overflow-x-auto">
+                <pre className="text-[var(--dim)] whitespace-pre">
                   {`        ┌─ РОССИЯ ──── `}<span className="text-[var(--liga-green)]">Лига Ставок (Title Partner)</span>{`\n`}
                   {`PFL ────┼─ СЕРБИЯ ──── MaxBet (локальный партнёр)\n`}
                   {`        ├─ УЗБЕКИСТАН ─ локальный букмекер\n`}
