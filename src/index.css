@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;700&family=Outfit:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --black: #050505;
+    --black-deep: #000000;
+    --white: #FFFFFF;
+    --muted: #A1A1AA;
+    --dim: #52525B;
+    
+    --pfl-orange: #FF5722;
+    --pfl-orange-dim: #E64A19;
+    --pfl-orange-bg: rgba(255, 87, 34, 0.1);
+    
+    --surface-1: rgba(255, 255, 255, 0.03);
+    --surface-2: rgba(255, 255, 255, 0.05);
+    --border: rgba(255, 255, 255, 0.08);
+    
+    --liga-green: #00B956;
+    --liga-green-bg: rgba(0, 185, 86, 0.15);
+  }
+  
+  html {
+    scroll-behavior: smooth;
+    background-color: var(--black-deep);
+  }
+  
+  body {
+    background-color: var(--black-deep);
+    color: var(--white);
+    font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 0.02em;
+  }
+
+  .font-outfit {
+    font-family: 'Outfit', sans-serif;
+  }
+}
+
+@layer components {
+  .glass-card {
+    background-color: var(--surface-1);
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
+    border: 1px solid var(--border);
+    border-radius: 1rem;
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+  }
+  
+  .glass-card-hover {
+    transition: all 0.3s ease;
+  }
+  .glass-card-hover:hover {
+    background-color: var(--surface-2);
+    border-color: rgba(255,87,34,0.3);
+    box-shadow: 0 8px 32px 0 rgba(255,87,34,0.15);
+    transform: translateY(-4px);
+  }
+  
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  
+  .badge-orange {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    background-color: rgba(255,87,34,0.15);
+    color: var(--pfl-orange);
+    border: 1px solid rgba(255,87,34,0.3);
+  }
+  
+  .btn-primary {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 2rem;
+    background-color: var(--pfl-orange);
+    color: white;
+    font-weight: 700;
+    font-family: 'Outfit', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border-radius: 0.5rem;
+    transition: all 0.3s ease;
+  }
+  .btn-primary:hover {
+    background-color: #ff6a3a;
+    box-shadow: 0 0 20px rgba(255,87,34,0.4);
+    transform: scale(1.05);
+  }
+  
+  .btn-outline {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 2rem;
+    background-color: transparent;
+    border: 1px solid var(--border);
+    color: white;
+    font-weight: 700;
+    font-family: 'Outfit', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border-radius: 0.5rem;
+    transition: all 0.3s ease;
+  }
+  .btn-outline:hover {
+    border-color: var(--pfl-orange);
+    background-color: rgba(255,87,34,0.05);
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    background: linear-gradient(135deg, #FFFFFF 0%, #A1A1AA 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .text-gradient-orange {
+    background: linear-gradient(135deg, #FF8A65 0%, #FF5722 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .bg-glow-1 {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    background: radial-gradient(circle, rgba(255,87,34,0.15) 0%, rgba(0,0,0,0) 70%);
+    top: -100px;
+    right: -100px;
+    border-radius: 50%;
+    filter: blur(60px);
+    z-index: 0;
+    pointer-events: none;
+  }
+  
+  .bg-glow-2 {
+    position: absolute;
+    width: 800px;
+    height: 800px;
+    background: radial-gradient(circle, rgba(0,185,86,0.05) 0%, rgba(0,0,0,0) 70%);
+    bottom: -200px;
+    left: -200px;
+    border-radius: 50%;
+    filter: blur(80px);
+    z-index: 0;
+    pointer-events: none;
+  }
+  
+  .bg-grid-modern {
+    background-size: 40px 40px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+                      linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+    mask-image: radial-gradient(circle at center, black, transparent 80%);
+    -webkit-mask-image: radial-gradient(circle at center, black, transparent 80%);
+  }
+}
