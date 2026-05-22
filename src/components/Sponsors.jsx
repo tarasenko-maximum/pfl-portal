@@ -22,7 +22,7 @@ const Sponsors = () => {
           className="mb-20"
         >
           <div className="badge-orange mb-4">ИНТЕГРАЦИИ</div>
-          <h2 className="text-5xl md:text-[80px] font-anton text-white uppercase tracking-wider leading-none">
+          <h2 className="text-4xl md:text-[80px] font-anton text-white uppercase tracking-wider leading-[1.1] md:leading-none break-words">
             СПОНСОРСКАЯ МОДЕЛЬ. БЕЗ ЭМОЦИЙ.
           </h2>
         </motion.div>
@@ -53,7 +53,7 @@ const Sponsors = () => {
                 Многоуровневая модель
               </h3>
               
-              <div className="bg-[#050505] rounded-xl p-6 mb-8 font-mono text-sm border border-white/10 overflow-x-auto">
+              <div className="bg-[#050505] rounded-xl p-4 md:p-6 mb-8 font-mono text-[10px] md:text-sm border border-white/10 overflow-x-auto">
                 <pre className="text-[var(--dim)]">
                   {`        ┌─ РОССИЯ ──── `}<span className="text-[var(--liga-green)]">Лига Ставок (Title Partner)</span>{`\n`}
                   {`PFL ────┼─ СЕРБИЯ ──── MaxBet (локальный партнёр)\n`}
@@ -78,7 +78,7 @@ const Sponsors = () => {
               </div>
             </div>
 
-            <div className="text-2xl md:text-3xl font-anton text-[var(--pfl-orange)] uppercase tracking-wider leading-tight">
+            <div className="text-xl md:text-3xl font-anton text-[var(--pfl-orange)] uppercase tracking-wider leading-tight whitespace-normal break-words mt-10 md:mt-0">
               Это не "баннеры на сайте". Это управляемое медиа-пространство.
             </div>
           </div>

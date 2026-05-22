@@ -97,14 +97,14 @@ const TemplateHome = () => {
           <div className="bg-white shadow-2xl p-8 relative overflow-hidden group">
             <div className="absolute top-0 left-0 w-full h-1 bg-red-600"></div>
             <div className="flex justify-between items-end mb-8 relative z-10">
-              <img src="/images/jango.png" className="w-40 h-40 object-cover object-top mask-image-gradient-bottom" alt="Fighter 1" />
-              <div className="flex flex-col items-center mb-6 z-20">
-                <div className="text-4xl font-black italic mb-3">VS</div>
-                <div className="bg-[var(--liga-green)] px-4 py-2 rounded shadow-[0_0_20px_rgba(0,255,102,0.4)] transform scale-125">
-                   <img src="/images/ls_logo_white.png" className="h-6" alt="Liga Stavok" />
+              <img src="/images/jango.png" className="w-24 h-24 md:w-40 md:h-40 object-cover object-top mask-image-gradient-bottom" alt="Fighter 1" />
+              <div className="flex flex-col items-center mb-6 z-20 mx-1 md:mx-0">
+                <div className="text-2xl md:text-4xl font-black italic mb-1 md:mb-3">VS</div>
+                <div className="bg-[var(--liga-green)] px-2 py-1 md:px-4 md:py-2 rounded shadow-[0_0_20px_rgba(0,255,102,0.4)] transform md:scale-125">
+                   <img src="/images/ls_logo_white.png" className="h-4 md:h-6" alt="Liga Stavok" />
                 </div>
               </div>
-              <img src="/images/magomed.png" className="w-40 h-40 object-cover object-top mask-image-gradient-bottom" alt="Fighter 2" />
+              <img src="/images/magomed.png" className="w-24 h-24 md:w-40 md:h-40 object-cover object-top mask-image-gradient-bottom" alt="Fighter 2" />
             </div>
             <div className="text-center relative z-10">
               <div className="text-[10px] text-gray-500 font-bold tracking-widest uppercase mb-2">DECEMBER 24, 2026</div>
@@ -121,14 +121,14 @@ const TemplateHome = () => {
           <div className="bg-white shadow-2xl p-8 relative overflow-hidden group">
             <div className="absolute top-0 left-0 w-full h-1 bg-gray-300 group-hover:bg-red-600 transition-colors"></div>
             <div className="flex justify-between items-end mb-8 relative z-10">
-              <img src="/images/action.png" className="w-40 h-40 object-cover object-top mask-image-gradient-bottom grayscale group-hover:grayscale-0 transition-all" alt="Fighter 1" />
-              <div className="flex flex-col items-center mb-6 z-20">
-                <div className="text-4xl font-black italic mb-3">VS</div>
-                <div className="bg-[var(--liga-green)] px-4 py-2 rounded shadow-[0_0_20px_rgba(0,255,102,0.4)] transform scale-125">
-                   <img src="/images/ls_logo_white.png" className="h-6" alt="Liga Stavok" />
+              <img src="/images/action.png" className="w-24 h-24 md:w-40 md:h-40 object-cover object-top mask-image-gradient-bottom grayscale group-hover:grayscale-0 transition-all" alt="Fighter 1" />
+              <div className="flex flex-col items-center mb-6 z-20 mx-1 md:mx-0">
+                <div className="text-2xl md:text-4xl font-black italic mb-1 md:mb-3">VS</div>
+                <div className="bg-[var(--liga-green)] px-2 py-1 md:px-4 md:py-2 rounded shadow-[0_0_20px_rgba(0,255,102,0.4)] transform md:scale-125">
+                   <img src="/images/ls_logo_white.png" className="h-4 md:h-6" alt="Liga Stavok" />
                 </div>
               </div>
-              <img src="/images/mokap2.webp" className="w-40 h-40 object-cover object-top mask-image-gradient-bottom grayscale group-hover:grayscale-0 transition-all" alt="Fighter 2" />
+              <img src="/images/mokap2.webp" className="w-24 h-24 md:w-40 md:h-40 object-cover object-top mask-image-gradient-bottom grayscale group-hover:grayscale-0 transition-all" alt="Fighter 2" />
             </div>
             <div className="text-center relative z-10">
               <div className="text-[10px] text-gray-500 font-bold tracking-widest uppercase mb-2">DECEMBER 24, 2026</div>
